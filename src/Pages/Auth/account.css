@@ -1,0 +1,65 @@
+.page-account .header .menu-icon span {
+  background-color: var(--light-color) !important;
+}
+.page-account input {
+  display: block;
+  color: #353431f0;
+}
+
+.page-account input::placeholder {
+  color: #f8f2eea1;
+  font-size: 15px;
+}
+
+.page-account .btn {
+  border: 1px solid transparent;
+  transition: var(--transition);
+  --o-transition: var(--transition);
+  --webkite-transition: var(--transition);
+  --moz-transition: var(--transition);
+  --ms-transition: var(--transition);
+}
+.page-account .btn:hover {
+  background-color: var(--second-color);
+  border: 1px solid var(--light-color);
+}
+
+@media (min-width: 767px) {
+  .page-account .imge {
+    right: 0 !important;
+  }
+}
+@media (max-width: 767px) {
+  .page-account   .imge {
+    left: 0 !important;
+  }
+
+}
+
+
+@media (max-width: 576px) {
+  .page-account input::placeholder {
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .page-account   .imge  {
+    display:  none !important;
+    height:  0 !important;
+  }
+
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  margin-top: -10px;
+}
+/* Page Login */
+.login {
+height: 100vh;
+}
+

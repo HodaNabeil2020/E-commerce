@@ -1,0 +1,30 @@
+
+
+
+
+.new-products .box .box-info {
+  background-color: var(--second-color);
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  transition: 0.4s all ease;
+}
+.new-products .box img {
+  transition: 0.4s all ease;
+}
+
+.new-products .box:hover .box-info {
+  bottom: 0;
+}
+.new-products .box:hover  img {
+  transform: rotate(3deg)  scale(1.1);
+}
+
+@media (max-width:576px) { 
+  .new-products  .box .box-img  {
+    height: 100px !important;
+  }
+  .new-products  .box-info  h4 , .box-info p{
+    font-size: 12px !important;
+  }
+}

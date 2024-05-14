@@ -1,0 +1,62 @@
+.page-cart .header .menu-icon span {
+  background-color: var(--light-color) !important;
+}
+.cart-item img {
+  filter: drop-shadow(6px 6px 2px rgb(0, 0, 0, 0.1));
+}
+
+.details-cart div > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  color: var(--dark-color);
+}
+
+.details-cart div > div h4 {
+  color: var(--dark-color);
+  font-size: 15px;
+}
+
+.details-cart a {
+  display: block;
+  padding: 10px 12px;
+  background-color: var(--second-color);
+  border-radius: 2px;
+  color: var(--light-color);
+  text-align: center;
+  margin: 15px 0;
+  transition: 0.3s all;
+}
+.details-cart a:hover {
+  background-color: #be927b;
+}
+
+.btn-remove:hover {
+  background-color: var(--second-color);
+  color: var(--light-color);
+  transition: var(--transition);
+  --o-transition: var(--transition);
+  --webkite-transition: var(--transition);
+  --moz-transition: var(--transition);
+  --ms-transition: var(--transition);
+}
+.btn-remove:hover i {
+  color: var(--light-color);
+  transition: var(--transition);
+  --o-transition: var(--transition);
+  --webkite-transition: var(--transition);
+  --moz-transition: var(--transition);
+  --ms-transition: var(--transition);
+}
+@media (max-width: 400px) {
+  .cart-item p,
+  .cart-item  h5,
+  .cart-item   i,
+  .cart-item   button {
+    font-size: 14px !important;
+  }
+  .rigth-cart-item h3 {
+    font-size: 15px;
+  }
+}

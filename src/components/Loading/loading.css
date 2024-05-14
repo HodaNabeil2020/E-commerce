@@ -1,0 +1,38 @@
+.loading {
+  height: 100vh;
+  width: 100%;
+  background-color: #f9f8f8;
+  position: relative;
+}
+.loading .spinner {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid var(--#DDC2AB);
+  border-left: #d39c80 5px solid;
+  animation: spinner 1.5s linear infinite;
+
+  --transition: 0.4s all ease;
+  --o-transform: translate(-50%, -50%);
+  --webkite-transform: translate(-50%, -50%);
+  --moz-transform: translate(-50%, -50%);
+  --ms-transform: translate(-50%, -50%);
+  --webkite-animation: spinner 1.5s linear infinite;
+  --o-animation: spinner 1.5s linear infinite;
+  --webkite-animation: spinner 1.5s linear infinite;
+  --moz-animation: spinner 1.5s linear infinite;
+  --ms-animation: spinner 1.5s linear infinite;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

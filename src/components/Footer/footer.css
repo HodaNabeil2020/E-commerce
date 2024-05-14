@@ -1,0 +1,26 @@
+.container-icons span::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  left: 0;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 50px;
+  transition: 0.4s all;
+}
+.container-icons span i {
+  color: var(--light-color);
+}
+.container-icons span:hover::after {
+  width: 100%;
+  background-color: var(--active-color);
+}
+.container-icons span:hover i {
+  color: var(--light-color) !important;
+}
+
+.footer {
+  border-top: 1px solid #e8dad4
+}

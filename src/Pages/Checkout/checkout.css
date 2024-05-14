@@ -1,0 +1,162 @@
+
+.page-checkout .header .menu-icon  span {
+  background-color: var(--light-color) !important;
+}
+.page-checkout label {
+  margin-bottom: 6px;
+
+  display: block;
+  color: var(--dark-color);
+  font-size: 15px;
+}
+
+.page-checkout span {
+  color: var(--active-color);
+}
+.page-checkout input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 7px 12px;
+
+  outline: none;
+  border: 1px solid #d39c8087;
+  border-radius: 1px;
+  background-color: transparent;
+  color: var(--dark-color);
+  font-size: 15px;
+}
+
+.page-checkout input[type="checkbox"] {
+  display: inline-block !important;
+  width: 20px !important;
+  height: 20px !important;
+  cursor: pointer;
+  border: 1px solid #d39c8087;
+  outline: none !important;
+}
+.page-checkout input[type="checkbox"]:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+.page-checkout input:focus,
+textarea {
+  box-shadow: 0 0 3px 0px #dd8b61;
+}
+.page-checkout div:not(:last-of-type) {
+  margin-bottom: 12px;
+}
+
+.page-checkout input::placeholder {
+  font-size: 14px;
+  color: rgb(189, 179, 179);
+}
+
+/*  */
+
+.page-checkout input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.rigth-checkout div:not(:last-of-type) {
+  border-bottom: 2px solid #9d988824;
+}
+.rigth-checkout h4 {
+  margin-bottom: 10px;
+}
+
+.rigth-checkout input[type="radio"],
+.rigth-checkout input[type="checkbox"] {
+  appearance: none !important;
+  --webkit-appearance: none !important;
+  display: none !important;
+}
+
+.rigth-checkout .form-group-radio label {
+  position: relative;
+  padding-left: 30px;
+}
+.rigth-checkout .form-group-radio label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid var(--second-color);
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.rigth-checkout .form-group-radio label::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--second-color);
+  transform: scale(0) rotate(360deg);
+  transition: 0.3s ease;
+  --webkit-transition: 0.3s ease;
+  --ms-transition: 0.3s ease;
+  --o-transition: 0.3s ease;
+  --moz-transition: 0.3s ease;
+}
+
+.rigth-checkout input[type="radio"]:checked + label::after {
+  transform: scale(1);
+}
+
+.page-checkout input[type="checkbox"] {
+  appearance: none !important;
+  --webkit-appearance: none !important;
+  display: none !important;
+}
+
+.page-checkout .box-checkbox label {
+  position: relative;
+  padding-left: 30px;
+}
+
+.page-checkout .box-checkbox label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid var(--second-color);
+  width: 18px;
+  height: 18px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.page-checkout .box-checkbox label::after {
+  content: "\f00c";
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  position: absolute;
+  font-size: 12px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--active-color);
+  height: 18px;
+  width: 18px;
+  border-radius: 4px;
+  color: #fff;
+  top: 0px;
+  transform: scale(0) rotate(360deg);
+  transition: 0.3s ease;
+  --webkit-transition: 0.3s ease;
+  --ms-transition: 0.3s ease;
+  --o-transition: 0.3s ease;
+  --moz-transition: 0.3s ease;
+}
+.page-checkout input[type="checkbox"]:checked + label::after {
+  transform: scale(1);
+}

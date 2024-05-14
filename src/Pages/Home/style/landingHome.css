@@ -1,0 +1,60 @@
+
+.overley::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0000007d;
+}
+
+
+.header-slider .header{
+background-color: transparent;
+}
+.header-slider .header .nav-links .nav-link {
+color: var(--light-color);
+}
+.header-slider .header .logo {
+  color: var(--light-color);
+}
+
+.header-slider .header .icon-links > a  {
+  border-color: var(--light-color);
+  background-color: transparent;
+  color: var(--light-color);
+}
+
+.header-slider .header .menu-icon span  {
+  background-color: var(--light-color);
+}
+.container-balls {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+align-items: center;
+}
+
+.container-balls > div {
+  width: 12px;
+  height: 12px;
+  border: 1px solid  var(--light-color);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s all ease-in-out; 
+}
+
+.container-balls > div:not(:last-child) {
+  margin-right: 15px;
+}
+
+.container-balls > div.active {
+  background-color: var(--active-color);
+  width: 30px;
+  border-radius: 8px;
+  border-color: var(--active-color);
+  transition: 0.3s;
+}

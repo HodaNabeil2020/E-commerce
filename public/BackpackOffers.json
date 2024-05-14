@@ -1,0 +1,81 @@
+[
+  {
+    "id": 1,
+    "title": "Backpack",
+    "category": "Backpack",
+    "image": [
+      "/Img/new-products-sho.png",
+      "/Img/collection_1.png"
+
+    ],
+    "quantity": 1,
+    "colors": [ "Beige"],
+    "prand": ["cuyana", "fendi"],
+    "sizes": [
+      { "size": "small", "price": "5" },
+      { "size": "medium", "price": "25" }
+    ],
+    "reviews": "1,200",
+    "rating": 4.6,
+    "discount": 0,
+    "OldPrice":15
+  },
+  {
+    "id": 2,
+    "title": "Backpack",
+    "category": "Backpack",
+    "image": [
+      "/Img/newproduct_3.png",
+      "/Img/new-products-sho.png"
+
+    ],
+    "quantity": 1,
+    "colors": ["black"],
+    "prand": ["adidas", "cuyana", "fendi"],
+    "sizes": [
+      { "size": "medium", "price": "200" }
+    ],
+    "reviews": "1,000",
+    "rating": 4,
+    "discount": 0,
+    "OldPrice":120
+  },
+  {
+    "id": 3,
+    "title": "backbag",
+    "category": "backbag",
+    "image": [
+      "/Img/new-products-sho.png",
+      "/Img/new-product.png"
+
+    ],
+    "quantity": 1,
+    "colors": [ "black"],
+    "prand": ["adidas", "cuyana", "fendi"],
+    "sizes": [
+      { "size": "small", "price": "30" }
+    ],
+    "reviews": "1,20",
+    "rating": 3.8,
+    "discount": 0
+    ,
+    "OldPrice":100
+  },  {
+    "id": 4,
+    "title": "Backpack",
+    "category": "Backpack",
+    "quantity": 1,
+    "image": [
+      "/Img/new-product.png",
+      "/Img/newproduct-sh.png"
+    ],
+    "colors": ["white", "black"],
+    "prand": ["adidas", "cuyana"],
+    "sizes": [{ "size": "medium", "price": "40" }],
+    "reviews": "1,000",
+    "rating": 3.8,
+    "discount": 0
+    ,
+    "OldPrice":60
+  }
+]

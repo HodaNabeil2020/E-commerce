@@ -1,0 +1,448 @@
+[
+  {
+    "id": 1,
+    "title": "hand bag",
+    "category": "handbag",
+    "image": [
+      "/Img/new-products-1.png",
+      "/Img/new-products-1.png",
+      "/Img/new-products-1.png",
+      "/Img/new-products-1.png"
+    ],
+    "quantity": 1,
+    "colors": ["white", "Beige"],
+    "prand": ["cuyana", "fendi"],
+    "sizes": [
+      { "size": "small", "price": "10" },
+      { "size": "medium", "price": "25" }
+    ],
+    "reviews": "1,200",
+    "rating": 4.6,
+    "discount": 0
+  },
+  {
+    "id": 2,
+    "title": "hand bag",
+    "category": "handbag",
+    "image": [
+      "/Img/hangbagewhite_2.png",
+      "/Img/hangbagewhite_2.png",
+      "/Img/hangbagewhite_2.png",
+      "/Img/hangbagewhite_2.png"
+    ],
+    "quantity": 1,
+    "colors": ["black", "Beige"],
+    "prand": ["adidas", "cuyana", "fendi"],
+    "sizes": [
+      { "size": "small", "price": "100" },
+      { "size": "medium", "price": "200" }
+    ],
+    "reviews": "1,000",
+    "rating": 4,
+    "discount": 0
+  },
+  {
+    "id": 3,
+    "title": "backbag",
+    "category": "backbag",
+    "image": [
+      "/Img/wihte_2backbag.png",
+      "/Img/wihte_2backbag.png",
+      "/Img/wihte_2backbag.png",
+      "/Img/wihte_2backbag.png"
+    ],
+    "quantity": 1,
+    "colors": ["white", "black"],
+    "prand": ["adidas", "cuyana", "fendi"],
+    "sizes": [
+      { "size": "medium", "price": "75" },
+      { "size": "large", "price": "140" }
+    ],
+    "reviews": "1,20",
+    "rating": 3.8,
+    "discount": 0
+  },
+  {
+    "id": 4,
+    "title": "dufflebag",
+    "category": "dufflebag",
+    "quantity": 1,
+    "image": [
+      "/Img/dufflebag_4.png",
+      "/Img/dufflebag_4.png",
+      "/Img/dufflebag_4.png",
+      "/Img/dufflebag_4.png"
+    ],
+    "colors": ["black", "Beige"],
+    "prand": ["adidas", "cuyana", "fendi"],
+    "sizes": [
+      { "size": "small", "price": "190" },
+      { "size": "medium", "price": "215" },
+      { "size": "large", "price": "250" }
+    ],
+    "reviews": "1,200",
+    "rating": 4.6,
+    "discount": 0
+  },
+  {
+    "id": 5,
+    "title": "hand bag",
+    "category": "laptop",
+    "image": [
+      "/Img/new-lab.png",
+      "/Img/new-lab.png",
+      "/Img/new-lab.png",
+      "/Img/new-lab.png"
+    ],
+    "quantity": 1,
+    "colors": ["Beige", "white"],
+    "prand": ["adidas", "cuyana", "fendi"],
+    "sizes": [
+      { "size": "medium", "price": "25" },
+      { "size": "large", "price": "40" }
+    ]
+    ,
+    "discount": 0
+  },
+  {
+    "id": 6,
+    "title": "backbag",
+    "category": "backbag",
+    "quantity": 1,
+    "image": [
+      "/Img/backbag_6.png",
+      "/Img/backbag_6.png",
+      "/Img/backbag_6.png",
+      "/Img/backbag_6.png"
+    ],
+    "colors": ["Beige", "black"],
+    "prand": ["adidas", "cuyana", "fendi"],
+    "sizes": [
+      { "size": "small", "price": "40" },
+      { "size": "large", "price": "140" }
+    ],
+    "reviews": "1,400",
+    "rating": 4.9,
+    "discount": 0
+  },
+  {
+    "id": 7,
+    "title": "hand bag",
+    "category": "handbag",
+    "quantity": 1,
+    "image": [
+      "/Img/hanbag_7.png",
+      "/Img/hanbag_7.png",
+      "/Img/hanbag_7.png",
+      "/Img/hanbag_7.png"
+    ],
+    "colors": ["black", "white"],
+    "prand": ["adidas", "cuyana", "fendi"],
+    "sizes": [{ "size": "small", "price": "100" }],
+    "reviews": "1,800",
+    "rating": 4.8,
+    "discount": 0
+  },
+  {
+    "id": 8,
+    "title": "dufflebag",
+    "category": "dufflebag",
+    "quantity": 1,
+    "image": [
+      "/Img/duffle_8.png",
+      "/Img/duffle_8.png",
+      "/Img/duffle_8.png",
+      "/Img/duffle_8.png"
+    ],
+    "colors": ["Beige", "black"],
+    "prand": ["adidas", "fendi"],
+    "sizes": [
+      { "size": "medium", "price": "425" },
+      { "size": "large", "price": "500" }
+    ],
+    "reviews": "1,300",
+    "rating": 4.6,
+    "discount": 0
+  },
+  {
+    "id": 9,
+    "title": "hand bag",
+    "category": "handbag",
+    "quantity": 1,
+    "image": [
+      "/Img/new-products-1.png",
+      "/Img/new-products-1.png",
+      "/Img/new-products-1.png",
+      "/Img/new-products-1.png"
+    ],
+    "colors": ["Beige", "black"],
+    "prand": ["adidas", "cuyana", "fendi"],
+    "sizes": [{ "size": "medium", "price": "365" }],
+    "reviews": "2,200",
+    "rating": 4.8,
+    "discount": 0
+  },
+  {
+    "id": 10,
+    "title": "laptop",
+    "category": "laptop",
+    "quantity": 1,
+    "image": [
+      "/Img/labtop_10.png",
+      "/Img/labtop_10.png",
+      "/Img/labtop_10.png",
+      "/Img/labtop_10.png"
+    ],
+    "colors": ["Beige", "white", "black"],
+    "prand": ["adidas", "cuyana"],
+    "sizes": [{ "size": "large", "price": "500" }],
+    "reviews": "1,000",
+    "rating": 3.8,
+    "discount": 0
+  },
+  {
+    "id": 11,
+    "title": "laptop",
+    "category": "laptop",
+    "quantity": 1,
+    "image": [
+      "/Img/new-lab.png",
+      "/Img/new-lab.png",
+      "/Img/new-lab.png",
+      "/Img/new-lab.png"
+    ],
+    "colors": ["Beige", "black"],
+    "prand": "fendi",
+    "sizes": [{ "size": "large", "price": "500" }],
+    "reviews": "1,40",
+    "rating": 4.0,
+    "discount": 0
+  },
+
+  {
+    "id": 12,
+    "title": "dufflebag",
+    "category": "dufflebag",
+    "quantity": 1,
+    "image": [
+      "/Img/dufflebag12.png",
+      "/Img/dufflebag12.png",
+      "/Img/dufflebag12.png",
+      "/Img/dufflebag12.png"
+    ],
+    "colors": ["black"],
+    "prand": ["cuyana", "fendi"],
+    "sizes": [
+      { "size": "medium", "price": "455" },
+      { "size": "large", "price": "500" }
+    ],
+    "reviews": "1,800",
+    "rating": 4,
+    "discount": 0
+  },
+
+  {
+    "id": 13,
+    "title": "hand bag",
+    "category": "backbag",
+    "quantity": 1,
+    "image": [
+      "/Img/collection_1.png",
+      "/Img/collection_1.png",
+      "/Img/collection_1.png",
+      "/Img/collection_1.png"
+    ],
+    "colors": ["white", "white"],
+    "prand": ["cuyana", "fendi"],
+    "sizes": [
+      { "size": "small", "price": "10" },
+      { "size": "medium", "price": "25" },
+      { "size": "large", "price": "40" }
+    ],
+    "reviews": "1,200",
+    "rating": 4.6,
+    "discount": 0
+  },
+  {
+    "id": 14,
+    "title": "hand bag",
+    "category": "dufflebag",
+    "quantity": 1,
+    "image": [
+      "/Img/offer_4.png",
+      "/Img/offer_4.png",
+      "/Img/offer_4.png",
+      "/Img/offer_4.png"
+    ],
+    "colors": ["white", "Beige"],
+    "prand": ["adidas"],
+    "sizes": [
+      { "size": "medium", "price": "200" },
+      { "size": "large", "price": "250" }
+    ],
+    "reviews": "1,000",
+    "rating": 4,
+    "discount": 0
+  },
+  {
+    "id": 15,
+    "title": "backbag",
+    "category": "backbag",
+    "quantity": 1,
+    "image": [
+      "/Img/offer_2.png",
+      "/Img/offer_2.png",
+      "/Img/offer_2.png",
+      "/Img/offer_2.png"
+    ],
+    "colors": ["Beige"],
+    "prand": ["fendi"],
+    "sizes": [
+      { "size": "small", "price": "50" },
+      { "size": "medium", "price": "75" }
+    ],
+    "reviews": "1,20",
+    "rating": 3.8,
+    "discount": 0
+  },
+  {
+    "id": 16,
+    "quantity": 1,
+    "title": "dufflebag",
+    "category": "dufflebag",
+    "image": [
+      "/Img/dufflebag12.png",
+      "/Img/dufflebag12.png",
+      "/Img/dufflebag12.png",
+      "/Img/dufflebag12.png"
+    ],
+    "colors": ["black"],
+    "prand": ["adidas", "fendi"],
+    "sizes": [{ "size": "medium", "price": "215" }],
+    "reviews": "1,200",
+    "rating": 4.6,
+    "discount": 0
+  },
+  {
+    "id": 17,
+    "quantity": 1,
+    "title": "hand bag",
+    "category": "handbag",
+    "image": [
+      "/Img/new-lab.png",
+      "/Img/new-lab.png",
+      "/Img/new-lab.png",
+      "/Img/new-lab.png"
+    ],
+    "colors": ["black", "Beige"],
+    "prand": "cuyana",
+    "sizes": [
+      { "size": "small", "price": "10" },
+      { "size": "medium", "price": "25" }
+    ],
+    "reviews": "1,200",
+    "rating": 4.6,
+    "discount": 0
+  },
+  {
+    "id": 18,
+    "title": "backbag",
+    "category": "backbag",
+    "quantity": 1,
+    "image": [
+      "/Img/backbag_6.png",
+      "/Img/backbag_6.png",
+      "/Img/backbag_6.png",
+      "/Img/backbag_6.png"
+    ],
+    "colors": ["black"],
+    "prand": "fendi",
+    "sizes": [
+      { "size": "small", "price": "40" },
+      { "size": "medium", "price": "85" },
+      { "size": "large", "price": "140" }
+    ],
+    "reviews": "1,400",
+    "rating": 4.9,
+    "discount": 0
+  },
+  {
+    "id": 19,
+    "title": "hand bag",
+    "category": "handbag",
+    "quantity": 1,
+    "image": [
+      "/Img/hanbag_7.png",
+      "/Img/hanbag_7.png",
+      "/Img/hanbag_7.png",
+      "/Img/hanbag_7.png"
+    ],
+    "colors": ["black"],
+    "prand": ["fendi"],
+    "sizes": [
+      { "size": "small", "price": "100" },
+      { "size": "medium", "price": "255" },
+      { "size": "large", "price": "400" }
+    ],
+    "reviews": "1,800",
+    "rating": 4.8,
+    "discount": 0
+  },
+  {
+    "id": 20,
+    "title": "dufflebag",
+    "category": "dufflebag",
+    "quantity": 1,
+    "image": [
+      "/Img/duffle_8.png",
+      "/Img/duffle_8.png",
+      "/Img/duffle_8.png",
+      "/Img/duffle_8.png"
+    ],
+    "colors": ["Beige"],
+    "prand": ["adidas", "fendi"],
+    "sizes": [{ "size": "medium", "price": "425" }],
+    "reviews": "1,300",
+    "rating": 4.6,
+    "discount": 0
+  },
+  {
+    "id": 21,
+    "title": "hand bag",
+    "quantity": 1,
+    "category": "handbag",
+    "image": [
+      "/Img/new-products-1.png",
+      "/Img/new-products-1.png",
+      "/Img/new-products-1.png",
+      "/Img/new-products-1.png"
+    ],
+    "colors": ["Beige"],
+    "prand": "adidas",
+    "sizes": [
+      { "size": "small", "price": "300" },
+      { "size": "medium", "price": "365" }
+    ],
+    "reviews": "2,200",
+    "rating": 4.8,
+    "discount": 0
+  },
+  {
+    "id": 22,
+    "title": "dufflebag",
+    "category": "dufflebag",
+    "quantity": 1,
+    "image": [
+      "/Img/duffle_8.png",
+      "/Img/duffle_8.png",
+      "/Img/duffle_8.png",
+      "/Img/duffle_8.png"
+    ],
+    "colors": ["black"],
+    "prand": "fendi",
+    "sizes": [{ "size": "medium", "price": "455" }],
+    "reviews": "1,800",
+    "rating": 4,
+    "discount": 0
+  }
+]

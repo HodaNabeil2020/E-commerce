@@ -1,0 +1,237 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 60px;
+  background-color: var(--main-color);
+  height: 74px;
+  width: 100%;
+  position: fixed;
+  top:0%;
+  left: 0;
+  z-index: 1000;
+}
+.header .logo {
+  font-size: 18px;
+  color: rgb(39, 36, 36);
+}
+.header .nav-links {
+  display: flex;
+  align-content: center;
+  column-gap: 20px;
+}
+
+.header .nav-links .nav-link {
+  margin-right: 8px;
+  position: relative;
+  display: block;
+  color: var(--dark-colour);
+}
+.header .nav-links .nav-link:hover {
+  color: var(--active-color);
+  transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+.header .nav-links .nav-link:hover::before {
+  opacity: 0;
+}
+
+.header .nav-links .nav-link:hover::after {
+  opacity: 1;
+}
+
+.header .nav-links .nav-link.active {
+  color: var(--active-color);
+  font-weight: 600;
+  transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.header .nav-links .nav-link.active::before {
+  opacity: 0;
+}
+
+.header .nav-links .nav-link.active::after {
+  opacity: 1;
+}
+.header .nav-links .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--active-color);
+  opacity: 0;
+}
+.nav-links .nav-link::before {
+  content: "";
+  position: absolute;
+  top: 35%;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  left: -15px;
+  background-color: var(--active-color);
+}
+.header .icon-links {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+.header .icon-links > a {
+  color: var(--active-color);
+  border: 1px solid var(--active-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--light-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .icon-number {
+  position: absolute;
+  top: -20px;
+  right: -10px;
+  background-color: var(--second-color);
+  width: 20px;
+  height: 20px;
+  color: var(--light-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 13px;
+}
+.header .menu-icon {
+  width: 34px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+  display: none;
+}
+.header .menu-icon span {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  background-color: var(--dark-colour);
+  width: 100%;
+  transition: var(--transition);
+  border-radius: 2px;
+}
+
+.header .menu-icon span:first-child {
+  top: 0;
+}
+
+.header .menu-icon span:nth-child(2) {
+  top: 12px;
+}
+
+.header .menu-icon span:last-child {
+  top: 22px;
+}
+.header .menu-icon span:first-child.active-menu {
+  transform: rotate(45deg);
+}
+.header .menu-icon span:nth-child(2).active-menu {
+  opacity: 0;
+}
+
+.header .menu-icon span:first-child.active-menu,
+.header .menu-icon span:last-child.active-menu {
+  top: 12px;
+}
+
+.header .menu-icon span:last-child.active-menu {
+  transform: rotate(-45deg);
+}
+
+@media (max-width: 768px) {
+
+  .header  {
+    padding: 25px 30px;
+  }
+  .header .menu-icon {
+    display: block;
+  }
+  .nav-links {
+    position: absolute;
+    top: 73px;
+    flex-direction: column;
+    background-color: #c0cce5;
+    display: flex;
+    width: 100%;
+    left: 0;
+    transition: all 0.5s ease;
+    opacity: 0;
+    height: 0;
+  }
+  .nav-links .nav-link {
+    left: 50%;
+    width: fit-content;
+    margin: 30px 0;
+    opacity: 0;
+    transform: translateX(-50%);
+    display: none !important;
+  }
+  .nav-links.show {
+    opacity: 1;
+    height: 415px;
+  }
+  .nav-links .nav-link.show {
+    opacity: 1;
+    display: block !important;
+    transition-delay: 1s !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    padding: 20px 25px;
+  }
+  .header  .icon-links {
+    column-gap: 10px !important;
+  }
+  .header .icon-links > a {
+    width: 35px;
+    height: 35px;
+  }
+.header .icon-links > a i {
+    padding: 5px;
+  }
+  .header .icon-number {
+    top: -15px;
+  }
+  
+}
+
+@media (max-width: 300px) {
+  .header {
+    padding:  20px;
+  }
+  .logo {
+    font-size: 16px;
+  }
+}
+
+
+@media (min-width:991px) {
+  .header .nav-links .nav-link {
+    margin-right: 20px !important;
+  }
+
+  .header .icon-links  {
+    gap: 20px !important;
+  }
+}

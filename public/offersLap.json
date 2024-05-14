@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "hand bag",
+    "category": "handbag",
+    "image": [
+      "/Img/new-lab.png",
+      "/Img/labtop_10.png"
+
+    ],
+    "quantity": 1,
+    "colors": ["white", "Beige"],
+    "prand": ["cuyana", "fendi"],
+    "sizes": [
+      { "size": "small", "price": "10" },
+      { "size": "medium", "price": "25" }
+    ],
+    "reviews": "1,200",
+    "rating": 4.6,
+    "discount": 0,
+    "OldPrice":15
+  },
+  {
+    "id": 2,
+    "title": "hand bag",
+    "category": "handbag",
+    "image": [
+      "/Img/collection_1.png",
+      "/Img/offer_2.png"
+
+    ],
+    "quantity": 1,
+    "colors": ["black", "Beige"],
+    "prand": ["adidas", "cuyana", "fendi"],
+    "sizes": [
+      { "size": "small", "price": "100" },
+      { "size": "medium", "price": "200" }
+    ],
+    "reviews": "1,000",
+    "rating": 4,
+    "discount": 0,
+    "OldPrice":120
+  },
+  {
+    "id": 3,
+    "title": "backbag",
+    "category": "backbag",
+    "image": [
+      "/Img/offer_2.png",
+      "/Img/collection_1.png"
+    ],
+    "quantity": 1,
+    "colors": ["white", "black"],
+    "prand": ["adidas", "cuyana", "fendi"],
+    "sizes": [
+      { "size": "medium", "price": "75" },
+      { "size": "large", "price": "140" }
+    ],
+    "reviews": "1,20",
+    "rating": 3.8,
+    "discount": 0
+    ,
+    "OldPrice":100
+  },  {
+    "id": 4,
+    "title": "laptop",
+    "category": "laptop",
+    "quantity": 1,
+    "image": [
+      "/Img/labtop_10.png",
+      "/Img/new-lab.png"
+    ],
+    "colors": ["Beige", "white", "black"],
+    "prand": ["adidas", "cuyana"],
+    "sizes": [{ "size": "large", "price": "50" }],
+    "reviews": "1,000",
+    "rating": 3.8,
+    "discount": 0
+    ,
+    "OldPrice":60
+  }
+]
